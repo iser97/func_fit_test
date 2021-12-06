@@ -44,6 +44,7 @@ if __name__ == "__main__":
     plt.ylabel('y')
     plt.legend(loc=4) #指定legend的位置右下角
     plt.title('curve_fit')
-    plt.show()
     plt.savefig("fit_result.jpg")
+    plt.show()
+    
  
