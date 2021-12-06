@@ -4,13 +4,11 @@ import matplotlib.pyplot as plt
 import scipy.stats as sst
 from scipy.optimize import curve_fit
 
-#用于计算Lxx, Lyy
 def laa(x):
     x_mean = np.mean(x)
     lxx = np.sum((x-x_mean)**2)
     return lxx
 
-#用于计算Lxy
 def lab(x,y):
     x_mean = np.mean(x)
     y_mean = np.mean(y)
